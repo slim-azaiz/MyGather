@@ -6,32 +6,32 @@
 
 struct Stb_identification_data 
 {
-    std::string serial_number;
-	std::string nagra_serial_number;
-	std::string model;
-	std::string stb_mac_address;
-	std::string ethernet_mac_address;
-	std::string firmware_version;
-	std::string stb_manufacturing_date;
-	std::string hardware_version;
-	std::string network_id;
-	std::string manufacturer;
+    char* serial_number;
+	char* nagra_serial_number;
+	char* model;
+	char* stb_mac_address;
+	char* ethernet_mac_address;
+	char* firmware_version;
+	char* stb_manufacturing_date;
+	char* hardware_version;
+	char* network_id;
+	char* manufacturer;
     get_data data;
 }
 
 
 void create_Stb_identification_data();
 void destroy_Stb_identification_data();
-std::string get_serial_number();
-std::string get_nagra_serial_number();
-std::string get_model();
-std::string get_stb_mac_address();
-std::string get_ethernet_mac_address();
-std::string get_firmware_version();
-std::string get_stb_manufacturing_date();
-std::string get_hardware_version();
-std::string get_network_id();
-std::string get_manufacturer(); 
+char* get_serial_number();
+char* get_nagra_serial_number();
+char* get_model();
+char* get_stb_mac_address();
+char* get_ethernet_mac_address();
+char* get_firmware_version();
+char* get_stb_manufacturing_date();
+char* get_hardware_version();
+char* get_network_id();
+char* get_manufacturer(); 
 void fetch_data();
 
 };

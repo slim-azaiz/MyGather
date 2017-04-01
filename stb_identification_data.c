@@ -38,52 +38,52 @@ void fetch_data()
 	manufacturer = data.get_method_value_by_array(26);	
 }
 
-std::string get_serial_number()
+char* get_serial_number()
 {
 	return serial_number;
 }
 
-std::string get_nagra_serial_number()
+char* get_nagra_serial_number()
 {
 	return nagra_serial_number;
 }
 
-std::string get_model()
+char* get_model()
 {
 	return model;
 }
 
-std::string get_stb_mac_address()
+char* get_stb_mac_address()
 {
 	return stb_mac_address;
 }
 
-std::string get_ethernet_mac_address()
+char* get_ethernet_mac_address()
 {
 	return ethernet_mac_address;
 }
 
-std::string get_firmware_version()
+char* get_firmware_version()
 {
 	return firmware_version;
 }
 
-std::string get_stb_manufacturing_date()
+char* get_stb_manufacturing_date()
 {
 	return stb_manufacturing_date;
 }
 
-std::string get_hardware_version()
+char* get_hardware_version()
 {
 	return hardware_version;
 }
 
-std::string get_network_id()
+char* get_network_id()
 {
     return network_id;
 }
 
-std::string get_manufacturer()
+char* get_manufacturer()
 {
 	return manufacturer;
 }
